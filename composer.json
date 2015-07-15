@@ -1,0 +1,31 @@
+{
+    "name": "intelecom/smsgw",
+    "type": "library",
+    "description": "PHP client library for Intelecom SMS Gateway",
+    "keywords": ["intelecom", "sms", "api", "smsgw", "gateway", "rest"],
+    "homepage": "http://intele.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Intelecom Group AS",
+            "email": "support.interactive@intele.com"
+        },
+        {
+          "name": "Andreas Häber",
+          "email": "andreas.haber@intele.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.1",
+        "tcdent/php-restclient": "^0.1.4"
+    },
+    "require-dev": {
+        "phing/phing": "2.*",
+        "mockery/mockery": ">=0.7.2",
+        "phpunit/phpunit": "4.5.*",
+        "phpdocumentor/phpdocumentor": "^2.8"
+    },
+    "autoload": {
+        "files": ["Intelecom/Intelecom_SMSGW.php"]
+    }
+}
