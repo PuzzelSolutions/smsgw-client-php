@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/intelecom/smsgw-client-php.png?branch=master)](http://travis-ci.org/intelecom/smsgw-client-php)
+[![Build Status](https://secure.travis-ci.org/Intelecom/smsgw-client-php.png?branch=master)](http://travis-ci.org/intelecom/smsgw-client-php)
 
 ## Installation
 
