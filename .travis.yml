@@ -16,3 +16,5 @@ matrix:
   
 install:
 - composer install
+
+script: echo 'No tests added yet'
