@@ -2,6 +2,7 @@
     "name": "intelecom/smsgw",
     "type": "library",
     "description": "PHP client library for Intelecom SMS Gateway",
+    "version": "1.0.1-dev",
     "keywords": ["intelecom", "sms", "api", "smsgw", "gateway", "rest"],
     "homepage": "http://intele.com/",
     "license": "MIT",
