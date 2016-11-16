@@ -116,8 +116,7 @@ class Intelecom_Service_SMSGW {
     if($result->info->http_code == 200) {
         return $result->decode_response();
     } else {
-      die('request failed' . $result);
-          // throw new exception
+      throw new Exception("Request failed: \n" . var_dump($result));
     }
   }
 
