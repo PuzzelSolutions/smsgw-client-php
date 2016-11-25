@@ -1,3 +1,7 @@
+[![Latest Stable Version](https://poser.pugx.org/intelecom/smsgw/v/stable)](https://packagist.org/packages/intelecom/smsgw) 
+[![Total Downloads](https://poser.pugx.org/intelecom/smsgw/downloads)](https://packagist.org/packages/intelecom/smsgw) 
+[![Latest Unstable Version](https://poser.pugx.org/intelecom/smsgw/v/unstable)](https://packagist.org/packages/intelecom/smsgw) 
+[![License](https://poser.pugx.org/intelecom/smsgw/license)](https://packagist.org/packages/intelecom/smsgw) 
 [![Build Status](https://secure.travis-ci.org/Intelecom/smsgw-client-php.png?branch=master)](http://travis-ci.org/Intelecom/smsgw-client-php)
 
 ## Installation
