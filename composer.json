@@ -1,0 +1,13 @@
+{
+  "name": "puzzel/smsgw-sdk-example",
+  "description": "Puzzel SMS GW Example",
+  "require": {
+    "slim/slim": "^2.6",
+    "intelecom/smsgw": "1.0.1"
+  },
+  "minimum-stability": "dev",
+  "authors": [{
+    "name": "Andreas Häber",
+    "email": "andreas.haber@puzzel.com"
+  }]
+}
