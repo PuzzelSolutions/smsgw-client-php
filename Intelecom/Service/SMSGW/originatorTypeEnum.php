@@ -2,10 +2,10 @@
 
 class originatorTypeEnum
 {
-    const __default = 'International';
-    const International = 'International';
-    const Alphanumeric = 'Alphanumeric';
-    const Network = 'Network';
+    const __default = 'INTERNATIONAL';
+    const International = 'INTERNATIONAL';
+    const Alphanumeric = 'ALPHANUMERIC';
+    const Network = 'NETWORK';
 
 
 }
