@@ -96,7 +96,9 @@ class settings
      * @param boolean $safeRemoveNonGsmCharacters
      * @access public
      */
-    public function __construct($originatorSettings, $priority, $validity, $differentiator, $age, $gasSettings, $newSession, $sessionId, $invoiceNode, $sendWindow, $autoDetectEncoding, $safeRemoveNonGsmCharacters)
+    public function __construct($originatorSettings = null, $priority = null, $validity = null, $differentiator = null, 
+        $age = null, $gasSettings = null, $newSession = null, $sessionId = null, $invoiceNode = null, $sendWindow = null, 
+        $autoDetectEncoding = null, $safeRemoveNonGsmCharacters = null)
     {
       $this->originatorSettings = $originatorSettings;
       $this->priority = $priority;
