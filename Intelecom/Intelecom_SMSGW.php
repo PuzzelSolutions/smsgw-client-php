@@ -6,7 +6,19 @@
  * Link:     https://intele.com/smsgw
  */
 
-include_once ('Service/SMSGW/SMSGatewayV10EndpointService.php');
+include_once('Service/SMSGW/response.php');
+include_once('Service/SMSGW/messageStatus.php');
+include_once('Service/SMSGW/request.php');
+include_once('Service/SMSGW/message.php');
+include_once('Service/SMSGW/settings.php');
+include_once('Service/SMSGW/originatorSettings.php');
+include_once('Service/SMSGW/gasSettings.php');
+include_once('Service/SMSGW/sendWindow.php');
+include_once('Service/SMSGW/parameter.php');
+include_once('Service/SMSGW/originatorTypeEnum.php');
+include_once('Service/SMSGW/fault.php');
+include_once('Service/SMSGW/sendMessages.php');
+include_once('Service/SMSGW/sendMessagesResponse.php');
 
 function Intelecom_Service_SMSGW_autoload($className) {
     if (substr($className, 0, 23) != 'Intelecom_Service_SMSGW') {
